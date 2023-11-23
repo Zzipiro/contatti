@@ -1,0 +1,140 @@
+:root {
+    --primary: #000000;
+    --bkg: #E2E2DC;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    font-family: "noto-sans-extracondensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+    background-color: var(--bkg);
+
+    font-size: 1rem;
+}
+
+h1 {
+    font-family: "noto-sans-extracondensed", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.immagine {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cerchio {
+    margin: 4em 0 0 0;
+    background-color: var(--primary);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cerchio svg {
+    width: auto;
+    height: 17px;
+    position: relative;
+    bottom: 1px;
+}
+
+.descrizione {
+    padding: 1rem 0 2rem 0;
+}
+
+.nome {
+    margin-bottom: .5rem;
+}
+
+.testo {
+    max-width: 260px;
+    line-height: 1.25;
+}
+
+.separatore svg {
+    position: relative;
+    width: 375px;
+    bottom: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.caselle {
+    margin: 0 0 2rem 0;
+}
+
+.caselle a {
+    font-size: 1.5rem;
+}
+
+.caselle a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.pillola {
+    width: 345px;
+    border: 2px solid var(--primary);
+    border-radius: 999px;
+    margin-bottom: .5rem;
+}
+
+.pillola p {
+    padding: .5rem 2rem;
+}
+
+.palle {
+    display: flex;
+}
+
+.palle a {
+    font-weight: 900;
+    width: 54px;
+    height: 54px;
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.palle a:hover {
+    background-color: var(--primary);
+    color: var(--bkg);
+}
+
+.palle a:nth-child(2) {
+    margin: 0 .5rem;
+}
