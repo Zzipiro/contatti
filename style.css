@@ -49,7 +49,7 @@ h1 {
 }
 
 .cerchio {
-    margin: 4em 0 0 0;
+    margin: 3em 0 0 0;
     background-color: var(--primary);
     width: 100px;
     height: 100px;
@@ -116,6 +116,7 @@ a {
 
 .palle {
     display: flex;
+    margin-bottom: 2rem;
 }
 
 .palle a {
